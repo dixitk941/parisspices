@@ -13,4 +13,11 @@ function toggleMobileNav() {
   
   // Event listener for hamburger icon click
   document.getElementById('hamburger-toggle').addEventListener('click', toggleMobileNav);
+
+
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Your Website Name",
+  "logo": "https://www.yourwebsite.com/path/to/your/logo.png"
+
   
