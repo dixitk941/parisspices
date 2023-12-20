@@ -1,0 +1,20 @@
+.about {
+    background-color: #ccc;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+    opacity: 0;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+    opacity: 1;
+  }
+  

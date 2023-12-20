@@ -1,0 +1,160 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Header */
+
+
+/* Hero Section */
+.hero {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+
+/* About Section */
+
+/* Contact Section */
+
+
+/* Footer */
+
+
+/* Image Animation */
+.animated-image {
+  width: 100%; /* Adjust this width as needed */
+  height: 300px; /* Adjust this height as needed */
+  overflow: hidden;
+}
+
+.animated-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional styles */
+/* Image Line */
+.image-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.image-line img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-line img:hover {
+  transform: scale(1.1);
+}
+
+/* Text Box Animation */
+.text-box {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.text-box.show {
+  opacity: 1; /* Show when class 'show' is added */
+}
+
+/* ... Other styles continue here ... */
+
+
+
+@media screen and (max-width: 600px){
+  .image-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .image-line img {
+    width: 75px;
+    height: auto;
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-line img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Text Box Animation */
+  .text-box {
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .text-box.show {
+    opacity: 1; /* Show when class 'show' is added */
+  }
+
+
+  .animated-image {
+    width: 100%; /* Adjust this width as needed */
+    height: 100%; /* Adjust this height as needed */
+    overflow: hidden;
+  }
+  
+  .animated-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+}
