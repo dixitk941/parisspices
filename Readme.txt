@@ -1,8 +1,3 @@
-I apologize for that. Here are the properly formatted README.md files for each project:
-
-### Paris Spices README.md
-
-```markdown
 # Paris Spices
 
 Welcome to the Paris Spices repository! This project showcases the official website for Paris Spices, a premier destination for high-quality spices and culinary ingredients.
