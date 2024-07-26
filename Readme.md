@@ -30,3 +30,41 @@ Paris Spices brings the world of exotic flavors to your kitchen. Our website pro
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Others**: Bootstrap, Redux
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/parisspices.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd parisspices
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
+```bash
+npm start
+```
+The website will be available at `http://localhost:3000`.
+
+## Contributing
+
+We welcome contributions! If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## Contact
+
+For any inquiries or feedback, please reach out to us at [contact@parisspices.com](mailto:contact@parisspices.com).
+
+Happy cooking!
+
+Paris Spices Team
+```
