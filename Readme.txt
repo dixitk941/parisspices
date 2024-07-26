@@ -68,5 +68,3 @@ Happy cooking!
 
 Paris Spices Team
 ```
-
----
